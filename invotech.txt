@@ -1,4 +1,4 @@
-Zadanire rekrutacyjne dla invotech.co
+Zadanie rekrutacyjne dla invotech.co
 
 RWD
 SASS
