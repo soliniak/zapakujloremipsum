@@ -1,0 +1,10 @@
+Zadanire rekrutacyjne dla invotech.co
+
+RWD
+SASS
+BEM
+NPM
+GULP
+Prefixes
+Minify
+HTML5
