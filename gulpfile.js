@@ -39,7 +39,7 @@ gulp.task('pref', () => {
 gulp.task('minify-css', () => {
   return gulp.src('dist/style/*.css')
     .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(gulp.dest('dist/style/styles/'));
+    .pipe(gulp.dest('dist/style/'));
 });
 
 gulp.task('watch', ['sass', 'browserSync', 'pref'], () => {
