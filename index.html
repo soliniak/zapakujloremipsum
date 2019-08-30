@@ -34,7 +34,7 @@
 							<legend><h2 class="form-header">napisz do mnie</h2></legend>
 							<div class="email-and-name">
 								<label for="email" class="rightside-label">
-									<span class="label-text"> Email </span><input type="text" name="user_email" id="email" class="rightside_input rightside-email" placeholder="Podaj email" pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" required>
+									<span class="label-text"> Email </span><input type="text" name="user_email" id="email" class="rightside_input rightside-email" placeholder="Podaj email" pattern="[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?" required>
 								</label>
 								<label for="name" class="rightside-label"> 
 									<span class="label-text"> Imię </span> <input type="text" name="user_name" id="name" class="rightside_input rightside-name" placeholder="Podaj imię" required>
@@ -63,7 +63,7 @@
 							<span class="subscription_label-text"> <img src="dist/images/user-icon.png" alt="Kontur popiersia w kontekście użytkownika" class="user-icon"> Imię</span>  
 						</label>
 						<label for="subscription-email" class="subscription_label">
-							<input type="text" name="subscription_user-email"  class="subscription_input" id="subscription-email" required>
+							<input type="text" name="subscription_user-email"  class="subscription_input" id="subscription-email" pattern="[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?" required>
 							<span class="subscription_label-text"> <img src="dist/images/email-icon.png" alt="Koperta nawiązująca do e-maila" class="email-icon"> E-mail</span> 
 						</label>
 					</div>
